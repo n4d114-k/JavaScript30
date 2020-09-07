@@ -1,0 +1,41 @@
+html {
+    font-family: "Lucida Console", Monaco, monospace;
+    background: #5D8AA8;
+  }
+
+  .inbox {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #919191;
+  }
+
+  .item:last-child {
+    border-bottom: 0;
+  }
+
+  input:checked + p {
+    background: #F9F9F9;
+    text-decoration: line-through;
+  }
+
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+
+  p {
+    margin: 0;
+    padding: 20px;
+    transition: background 0.2s;
+    flex: 1;
+    font-size: 1.1em;
+    font-weight: 200;
+    border-left: 1px solid #7b9fc7;
+  }
