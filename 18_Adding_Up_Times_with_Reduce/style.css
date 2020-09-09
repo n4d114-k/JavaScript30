@@ -1,0 +1,23 @@
+body {
+  text-align: left;
+  background: #2b2b2b;
+  color: #4e9c4e;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 15px;
+  margin: 7em;
+}
+
+.videos {
+  list-style: none;
+  column-count: 4;
+}
+
+li {
+  margin-bottom: 1em;
+  display: block;
+  border: 2px solid #4e9c4e;
+  width: 7.5em;
+  height: 5em;
+  text-align: center;
+  padding-top: 2.5em;
+}
