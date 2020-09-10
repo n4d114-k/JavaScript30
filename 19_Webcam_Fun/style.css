@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 10px;
+  background: rgb(43,43,43);
+}
+
+button {
+  margin: 0 3em 3em 0.5em;
+  padding: 1em;
+  background:  rgb(78,156,78);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgb(36,36,36);
+}
+
+button:hover {
+  background: rgba(78,156,78, 0.7);
+  cursor: pointer;
+}
+
+.photobooth {
+  max-width: 68rem;
+  margin: 2rem auto;
+  border-radius: 2px;
+}
+
+/*clearfix*/
+.photobooth:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.photo {
+  width: 100%;
+  float: left;
+}
+
+.player {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width:200px;
+}
+
+.strip {
+  padding: 2rem;
+  background: rgb(43,43,43);
+}
+
+.strip img {
+  width: 100px;
+  overflow-x: scroll;
+  background: rgb(78,156,78);
+}
+
+.photo,
+.player,
+.strip img {
+  border: 5px solid rgb(36,36,36);
+  border-radius: 10px;
+}
+
+.strip a:nth-child(5n+1) img { transform: rotate(10deg); }
+.strip a:nth-child(5n+2) img { transform: rotate(-2deg); }
+.strip a:nth-child(5n+3) img { transform: rotate(8deg); }
+.strip a:nth-child(5n+4) img { transform: rotate(-11deg); }
+.strip a:nth-child(5n+5) img { transform: rotate(12deg); }
