@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #2b2b2b;
+  color: #2b2b2b;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+div {
+  width: 100%;
+  padding: 75px;
+}
+
+button {
+  background: #925B5B;
+  margin-top: 10px;
+  padding: 20px 60px;
+  border: none;
+  outline: 0;
+  position: relative;
+  color: inherit;
+  font-family: inherit;
+}
+
+button:active {
+  top: 2px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #6E4F4F;
+}
+
+.one {
+  background: #497549;
+}
+
+.one:hover {
+  background: #3F583F;
+}
+
+.two {
+  background: #92745B;
+}
+
+.two:hover {
+  background: #6E5D4F;
+}
+
+.three {
+  background: #754962;
+}
+
+.three:hover {
+  background: #583F4D;
+}
